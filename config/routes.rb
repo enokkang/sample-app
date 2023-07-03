@@ -7,4 +7,5 @@ Rails.application.routes.draw do
   get "/hello_path", controller: "example_page", action: "hello_method"
   get "/test1", controller: "example_page", action: "test_method"
   get "/test2", controller: "test", action: "test"
+  get "/hi", controller: "hi", action: "print_msg"
 end
